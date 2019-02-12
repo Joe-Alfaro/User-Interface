@@ -64,3 +64,105 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+  margin: auto;
+  width: 905px;
+}
+
+.upper-nav-bar nav {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 30px;
+  width: 74%;
+}
+
+.upper-nav-bar nav a {
+  text-decoration: none; 
+  color: lightgrey;
+  font-weight: bold;
+  font-size: 10pt;
+  padding: 30px;
+}
+
+.upper-nav-bar nav a:first-child {
+  padding-left: 30px;
+}
+
+.upper-nav-bar nav a:last-child {
+  padding-right: 0;
+}
+
+.upper-nav-bar .nav-bar-logo {
+  display: inline-block;
+  padding-top: 20px;
+  width: 25%;
+  vertical-align: top;
+}
+
+.page-title {
+  padding: 85px 0;
+  border-bottom: 1px solid black;
+}
+
+.page-title .title-image {
+  display: inline-block;
+  width: 49%;
+}
+
+.page-title .title-text {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  margin: 0 auto 0 auto;
+}
+
+.page-title .title-text h1 {
+  padding-top: 70px;
+  font-size: 50pt;
+  text-align: center;
+}
+
+.page-title .title-text button {
+  display: block;
+  margin: 0 auto;
+  font-size: 12pt;
+  height: 35px;
+  width: 150px;
+  padding: 0 10px 0 10px;
+  border: 1px solid black;
+}
+
+.upper-content {
+  margin: 35px auto;
+}
+
+.upper-content section {
+  display: inline-block;
+  width: 49%;
+  padding: 10px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.lower-content {
+  margin: 35px auto;
+  border-bottom: 1px solid black;
+  padding-bottom: 45px;
+}
+
+.lower-content section {
+  display: inline-block;
+  width: 32%;
+  padding: 10px;
+}
+
+
+footer p {
+  margin: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
